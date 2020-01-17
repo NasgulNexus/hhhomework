@@ -7,4 +7,3 @@ def gen(N):
     return answer
 # написать генераторное выражение, которое делает то же самое
 generatorAnswer = (randint(1, 100) for i in range(N))
-N=input
